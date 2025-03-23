@@ -1,5 +1,5 @@
 # Use nginx as the base image
-From nginx:latest
+FROM nginx:latest
 
 # Copy website files Into the Nginx server directory
 COPY . /usr/share/nginx/html
